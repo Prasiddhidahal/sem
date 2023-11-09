@@ -6,10 +6,6 @@ import loveImage from "../Images/Land2.png";
 import facebook from "../Images/facebook.png";
 import instagram from "../Images/insta.png";
 import twitter from "../Images/twitter.png";
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-/>;
 
 const LandingPage = () => {
   return (
@@ -17,6 +13,10 @@ const LandingPage = () => {
       <Navbar />
       <div className="container">
         <h1>Gesture Sync</h1>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+        </style>
         <h2>Translating Hands to Heart</h2>
 
         <div className="images">
@@ -24,8 +24,11 @@ const LandingPage = () => {
           <img src={loveImage} alt="Love" />
         </div>
 
-        <h1>Know What Your Loved One Is Trying to Tell You</h1>
-
+        <p>Know What Your Loved One Is Trying to Tell You</p>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Kenia&family=Libre+Baskerville:wght@700&display=swap');
+        </style>
         <div className="social">
           <a
             href="https://www.facebook.com"
