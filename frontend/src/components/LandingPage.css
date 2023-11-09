@@ -1,13 +1,56 @@
+/* LandingPage.css */
+
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #c88ea7;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
 h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #886161;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Blend the "prass" image with the background color */
+img#prassImage {
+  opacity: 0.8; /* Adjust the opacity value as needed (0.7 for 70% opacity) */
+}
+
+.social {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  align-items: right;
+}
+
+.social a {
+  color: #a73535;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social a:hover {
+  color: #080909;
+}
+
+/* Font Awesome icons */
+i.fab {
   font-size: 2rem;
-  margin: 20px 0;
 }
