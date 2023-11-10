@@ -1,0 +1,21 @@
+.about-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px; /* Adjust the maximum width as needed */
+}
+.about-container {
+  color: #886161;
+  font-family: "Libre Baskerville", serif;
+  transition: 0.3s;
+}
+.about-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+h1 {
+  font-family: "Libre Baskerville", serif;
+}
+h3 {
+  font-family: "Libre Baskerville", serif;
+}

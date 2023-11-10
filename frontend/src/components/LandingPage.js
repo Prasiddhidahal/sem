@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./LandingPage.css";
-import prassImage from "../Images/prass.png";
+//import prassImage from "../Images/prass.png";
 import loveImage from "../Images/Land2.png";
 import facebook from "../Images/facebook.png";
 import instagram from "../Images/insta.png";
@@ -19,11 +19,8 @@ const LandingPage = () => {
         </style>
         <h2>Translating Hands to Heart</h2>
 
-        <div className="images">
-          <img src={prassImage} alt="Prass" />
-          <img src={loveImage} alt="Love" />
-        </div>
-
+        <div className="images"></div>
+        <img src={loveImage} alt="Love" className="love" />
         <p>Know What Your Loved One Is Trying to Tell You</p>
         <style>
           @import

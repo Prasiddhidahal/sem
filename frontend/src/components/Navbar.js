@@ -7,6 +7,9 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
+          <Link to="/">Gesture Sync</Link>
+        </li>
+        <li>
           <Link to="/about">About Us</Link>
         </li>
         <li>
@@ -15,7 +18,7 @@ const Navbar = () => {
         <li>
           <Link to="/webcam">Webcam</Link>
         </li>
-        <li>
+        <li className="login-link">
           <Link to="/Login">Login</Link>
         </li>
       </ul>
