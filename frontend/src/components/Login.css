@@ -5,7 +5,9 @@
   align-items: center;
   margin-top: 20px;
 }
-
+.h1 {
+  font-family: "Libre Baskerville", serif;
+}
 .login-image {
   flex: 1;
   margin-right: 20px; /* Adjust the margin-right value */
@@ -14,6 +16,9 @@
 .login-image img {
   max-width: 800px;
   width: 100%;
+}
+.h3 {
+  font: optional;
 }
 
 .login-form {
@@ -36,14 +41,14 @@
 
 .login-form label {
   margin: 10px 0 5px;
-  color: #555;
+  color: #000;
 }
 
 .login-form input {
   padding: 10px;
   margin-bottom: 15px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   border-radius: 4px;
   display: block;
   width: 100%; /* Make the input fields take full width */
@@ -53,21 +58,26 @@
 .login-form button {
   background-color: #c88ea7;
   color: #fff;
-  padding: 10px 15px;
+  padding: 15px 15px;
+  font-family: "Libre Baskerville", serif;
   font-size: 16px;
   border: none;
   cursor: pointer;
   border-radius: 4px;
 }
 
+/* Login.css */
+
+/* ... (previous styles) */
+
 .login-options {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px; /* Increase the margin-top to add more space */
 }
 
 .login-options p {
-  margin-bottom: 10px;
-  color: #555;
+  margin-bottom: 15px; /* Increase the margin-bottom to add more space */
+  color: #000;
 }
 
 .login-options li {
@@ -75,27 +85,35 @@
   color: #c88ea7;
 }
 
-.login-options a {
-  text-decoration: none;
+.color p {
+  margin-bottom: 15px; /* Increase the margin-bottom to add more space */
   color: #c88ea7;
+  text-decoration: underline; /* Add underline to the text */
 }
+
 .google-sign-in .google-button-container {
   display: flex;
   align-items: center; /* Align items vertically in the center */
+  font-family: "Libre Baskerville", serif;
+  margin-top: 20px; /* Adjust the margin-top to add more space */
 }
 
 .google-sign-in button {
   background-color: #ffffff;
   color: #c88ea7;
-  padding: 5px 5px;
+  padding: 10px 10px; /* Adjust padding for more space */
   font-size: 16px;
   border: 1px solid #000; /* Add border and set color to black */
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 4px;
   width: 100%;
   margin-top: 10px;
 }
 
+.login-options a {
+  text-decoration: none;
+  color: #c88ea7;
+}
 .google-sign-in button:hover {
   background-color: #ffffff;
   border-color: #000; /* Change border color on hover to black */
@@ -107,19 +125,23 @@
 }
 .form-group {
   margin-bottom: 20px;
+  color: #c88ea7;
 }
 
 .form-input {
-  padding: 10px;
+  padding: 15px 15px;
   margin-bottom: 15px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #c88ea7;
   border-radius: 4px;
   display: block;
   width: 100%;
   box-sizing: border-box;
+  color: #c88ea7;
 }
+
 .form-input button:hover {
   border-color: #fff;
   background-color: #ffffff;
+  color: #c88ea7;
 }

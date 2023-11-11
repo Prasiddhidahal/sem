@@ -38,10 +38,16 @@ const Login = () => {
           <img src={loginImage} alt="Login" />
         </div>
         <div className="login-form">
-          <h2>Login</h2>
+          <h1>Login</h1>
+          <style>
+            @import
+            url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+          </style>
           <form>
             <div className="form-group">
-              <label>Email:</label>
+              <label>
+                <h3>Email:</h3>
+              </label>
               <input
                 type="email"
                 value={email}
@@ -51,7 +57,9 @@ const Login = () => {
             </div>
 
             <div className="form-group">
-              <label>Password:</label>
+              <label>
+                <h3>Password:</h3>
+              </label>
               <input
                 type="password"
                 value={password}
@@ -75,9 +83,11 @@ const Login = () => {
             <div className="login-options">
               <h3>Don't have an account? </h3>
               <li>
-                <Link to="/signin">
-                  <h3>Sign in</h3>
-                </Link>
+                <div className="color">
+                  <Link to="/signin">
+                    <p>Sign in</p>
+                  </Link>
+                </div>
               </li>
             </div>
           </div>

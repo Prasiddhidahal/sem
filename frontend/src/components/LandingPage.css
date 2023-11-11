@@ -33,7 +33,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   color: #c88ea7;
-  font-family: "Kenia", sans-serif;
+
   font-family: "Libre Baskerville", serif;
   animation: fadeInUp 1.5s ease; /* Fade in from bottom animation */
 }
