@@ -5,6 +5,7 @@ import Webcam from "react-webcam";
 import "./WebCam.css"; // Import the CSS file
 import Navbar from "./Navbar";
 //import cam from "../Images/cam2.png";
+import Footer from "./Footer";
 
 const WebcamComponent = () => {
   const [count, setCount] = useState(0);
@@ -112,6 +113,7 @@ const WebcamComponent = () => {
           Record
         </button>
       </div>
+      <Footer />
     </div>
   );
 };

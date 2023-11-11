@@ -1,0 +1,51 @@
+/* Footer.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #c88ea7; /* Set your desired background color */
+}
+
+.section {
+  flex: 1 1 300px;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.section p {
+  font-size: 14px;
+  color: #000;
+}
+
+.social {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social a {
+  margin-top: 10px;
+}
+
+.social img {
+  width: 50px; /* Set your desired width for the icons */
+  height: 30px; /* Set your desired height for the icons */
+}
+
+#para {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}

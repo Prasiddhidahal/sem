@@ -1,11 +1,13 @@
+// LandingPage.js
+
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer"; // Import the Footer component
 import "./LandingPage.css";
-//import prassImage from "../Images/prass.png";
 import loveImage from "../Images/Land2.png";
-import facebook from "../Images/facebook.png";
-import instagram from "../Images/insta.png";
-import twitter from "../Images/twitter.png";
+//import facebook from "../Images/facebook.png";
+//import instagram from "../Images/insta.png";
+//import twitter from "../Images/twitter.png";
 
 const LandingPage = () => {
   return (
@@ -26,30 +28,9 @@ const LandingPage = () => {
           @import
           url('https://fonts.googleapis.com/css2?family=Kenia&family=Libre+Baskerville:wght@700&display=swap');
         </style>
-        <div className="social">
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={facebook} alt="facebook" />
-          </a>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={instagram} alt="insta" />
-          </a>
-          <a
-            href="https://www.Twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={twitter} alt="twitter" />
-          </a>
-        </div>
       </div>
+      {/* Include the Footer component at the end of your landing page */}
+      <Footer />
     </div>
   );
 };

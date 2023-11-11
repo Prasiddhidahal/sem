@@ -2,6 +2,7 @@ import React from "react";
 import about from "../Images/about.png";
 import Navbar from "./Navbar"; // Adjust the path based on your project structure
 import "./About.css";
+import Footer from "./Footer";
 
 function About() {
   return (
@@ -23,11 +24,10 @@ function About() {
         </h3>
         <div className="images">
           <img src={about} alt="Prass" className="about-image" />
-          <style>
-            @import
-            url('https://fonts.googleapis.com/css2?family=Kenia&family=Libre+Baskerville:wght@700&display=swap');
-          </style>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

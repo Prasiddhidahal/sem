@@ -8,7 +8,7 @@
 
 .contactimg {
   max-width: 600px; /* Adjust the maximum width as needed */
-  height: 330px;
+  height: 360px;
   margin-bottom: 20px;
 }
 
@@ -64,5 +64,5 @@ button:hover {
 
 .social img {
   max-width: 40px;
-  height: auto;
+  height: 40px;
 }

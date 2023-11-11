@@ -1,11 +1,10 @@
 // Import necessary modules or libraries
 import React from "react";
 import "./Contact.css"; // Import the CSS file
-import facebook from "../Images/facebook.png";
-import instagram from "../Images/insta.png";
-import twitter from "../Images/twitter.png";
+
 import contact from "../Images/contact.png";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function handleSubmit(event) {
   event.preventDefault();
@@ -14,7 +13,7 @@ function handleSubmit(event) {
 function ContactForm() {
   return (
     <div>
-      <Navbar />;
+      <Navbar />
       <div className="contact-container">
         <img src={contact} alt="contact" className="contactimg" />
         <form onSubmit={handleSubmit}>
@@ -23,34 +22,8 @@ function ContactForm() {
 
           <button type="submit">Submit</button>
         </form>
-
-        <div className="contact-social">
-          <p>Or contact us through:</p>
-          <div className="social">
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={facebook} alt="facebook" />
-            </a>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={instagram} alt="insta" />
-            </a>
-            <a
-              href="https://www.Twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={twitter} alt="twitter" />
-            </a>
-          </div>
-        </div>
       </div>
+      <Footer />
     </div>
   );
 }

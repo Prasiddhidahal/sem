@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import "./Login.css"; // Import the CSS file
 import loginImage from "../Images/login.png";
 import Google from "../Images/google.png";
+import Footer from "./Footer";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -39,15 +40,9 @@ const Login = () => {
         </div>
         <div className="login-form">
           <h1>Login</h1>
-          <style>
-            @import
-            url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
-          </style>
           <form>
             <div className="form-group">
-              <label>
-                <h3>Email:</h3>
-              </label>
+              <label>Email:</label>
               <input
                 type="email"
                 value={email}
@@ -57,9 +52,7 @@ const Login = () => {
             </div>
 
             <div className="form-group">
-              <label>
-                <h3>Password:</h3>
-              </label>
+              <label>Password:</label>
               <input
                 type="password"
                 value={password}
@@ -81,18 +74,15 @@ const Login = () => {
             </div>
 
             <div className="login-options">
-              <h3>Don't have an account? </h3>
-              <li>
-                <div className="color">
-                  <Link to="/signin">
-                    <p>Sign in</p>
-                  </Link>
-                </div>
-              </li>
+              <h3>Don't have an account?</h3>
+              <div className="color">
+                <Link to="/signin">Sign up</Link>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
