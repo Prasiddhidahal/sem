@@ -1,5 +1,10 @@
-import Webcam from "react-webcam";
+// WebcamComponent.js
+
 import React, { useState, useRef, useEffect } from "react";
+import Webcam from "react-webcam";
+import "./WebCam.css"; // Import the CSS file
+import Navbar from "./Navbar";
+//import cam from "../Images/cam2.png";
 
 const WebcamComponent = () => {
   const [count, setCount] = useState(0);
@@ -76,29 +81,37 @@ const WebcamComponent = () => {
 
   return (
     <div>
-      <Webcam
-        audio={false}
-        ref={webcamRef}
-        style={{ width: 640, height: 480 }}
-      />
-      <br />
-      <button onClick={() => startStream("translate")}>Translate</button>
-      <input
-        type="text"
-        onChange={handleKeywordChange}
-        value={keyword}
-        disabled={!canChangeKeyword}
-      />
-      <button
-        onClick={() => {
-          startStream("record");
-          handleButtonClick();
-          if (sampleNo !== 10) setSampleNo(sampleNo + 1);
-          else setSampleNo(0);
-        }}
-      >
-        Record
-      </button>
+      <Navbar />
+      <div className="container">
+        <Webcam
+          audio={false}
+          ref={webcamRef}
+          className="webcam" // Apply the 'webcam' class
+        />
+        <br />
+        <button className="button" onClick={() => startStream("translate")}>
+          Translate
+        </button>
+
+        <input
+          type="text"
+          onChange={handleKeywordChange}
+          value={keyword}
+          disabled={!canChangeKeyword}
+          className="input" // Apply the 'input' class
+        />
+        <button
+          className="button" // Apply the 'button' class
+          onClick={() => {
+            startStream("record");
+            handleButtonClick();
+            if (sampleNo !== 10) setSampleNo(sampleNo + 1);
+            else setSampleNo(0);
+          }}
+        >
+          Record
+        </button>
+      </div>
     </div>
   );
 };
