@@ -30,7 +30,7 @@ textarea {
 }
 
 button {
-  background-color: #ff6600;
+  background-color: #c88ea7;
   color: #fff;
   padding: 10px 15px;
   border: none;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-  background-color: #cc4d00;
+  background-color: #c88ea7;
 }
 
 .contact-social {

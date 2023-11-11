@@ -1,5 +1,11 @@
+// Login.js
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
+import "./Login.css"; // Import the CSS file
+import loginImage from "../Images/login.png";
+import Google from "../Images/google.png";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -14,38 +20,68 @@ const Login = () => {
   };
 
   const handleLogin = () => {
-    //  login logic here jstai authentication and stuff
+    // Login logic here, such as authentication
     if (email && password) {
+      // Add your authentication logic here
     }
+  };
+
+  const handleGoogleSignIn = () => {
+    // Implement Google Sign In logic here
   };
 
   return (
     <div>
-      <h2>Login</h2>
-      <form>
-        <div>
-          <label>Email:</label>
-          <input type="email" value={email} onChange={handleEmailChange} />
+      <Navbar />
+      <div className="login-container">
+        <div className="login-image">
+          <img src={loginImage} alt="Login" />
         </div>
-        <div>
-          <label>Password:</label>
-          <input
-            type="password"
-            value={password}
-            onChange={handlePasswordChange}
-          />
+        <div className="login-form">
+          <h2>Login</h2>
+          <form>
+            <div className="form-group">
+              <label>Email:</label>
+              <input
+                type="email"
+                value={email}
+                onChange={handleEmailChange}
+                className="form-input"
+              />
+            </div>
+
+            <div className="form-group">
+              <label>Password:</label>
+              <input
+                type="password"
+                value={password}
+                onChange={handlePasswordChange}
+                className="form-input"
+              />
+            </div>
+
+            <button type="button" onClick={handleLogin}>
+              Login
+            </button>
+          </form>
+          <div className="google-sign-in">
+            <div className="google-button-container">
+              <button type="button" onClick={handleGoogleSignIn}>
+                Sign in with Google
+                <img src={Google} alt="google" className="google-logo" />
+              </button>
+            </div>
+
+            <div className="login-options">
+              <h3>Don't have an account? </h3>
+              <li>
+                <Link to="/signin">
+                  <h3>Sign in</h3>
+                </Link>
+              </li>
+            </div>
+          </div>
         </div>
-        <button type="button" onClick={handleLogin}>
-          Login
-        </button>
-      </form>
-      <div>
-        <p>Don't have an account? </p>
-        {
-          <li>
-            <Link to="/signin">SignIn</Link>
-          </li>
-        }
       </div>
     </div>
   );

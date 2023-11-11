@@ -1,0 +1,125 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login-image {
+  flex: 1;
+  margin-right: 20px; /* Adjust the margin-right value */
+}
+
+.login-image img {
+  max-width: 800px;
+  width: 100%;
+}
+
+.login-form {
+  flex: 1;
+  max-width: 700px;
+  max-height: 1000px; /* Adjust the max-height value if needed */
+  padding: 20px;
+}
+.login-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Login.css */
+
+.login-form form {
+  display: flex;
+  flex-direction: column; /* Keep the column direction for other styles */
+}
+
+.login-form label {
+  margin: 10px 0 5px;
+  color: #555;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  width: 100%; /* Make the input fields take full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.login-form button {
+  background-color: #c88ea7;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-options {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-options p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.login-options li {
+  list-style: none;
+  color: #c88ea7;
+}
+
+.login-options a {
+  text-decoration: none;
+  color: #c88ea7;
+}
+.google-sign-in .google-button-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.google-sign-in button {
+  background-color: #ffffff;
+  color: #c88ea7;
+  padding: 5px 5px;
+  font-size: 16px;
+  border: 1px solid #000; /* Add border and set color to black */
+  cursor: pointer;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.google-sign-in button:hover {
+  background-color: #ffffff;
+  border-color: #000; /* Change border color on hover to black */
+}
+
+.google-sign-in .google-logo {
+  margin-left: 10px; /* Add margin to separate the button and the logo */
+  border-color: #000; /* Set border color for the logo to black */
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-input button:hover {
+  border-color: #fff;
+  background-color: #ffffff;
+}

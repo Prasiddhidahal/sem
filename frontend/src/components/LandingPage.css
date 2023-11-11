@@ -1,9 +1,7 @@
-/* LandingPage.css */
-
 .container {
   text-align: center;
   padding: 20px;
-  background-color: #f8ede3;
+  background-color: #ffffff; /* Set background color to white */
   font: panton;
   animation: fadeIn 2s ease; /* Fade in animation */
 }
@@ -23,7 +21,6 @@ h1 {
   font-family: "Libre Baskerville", serif;
   animation: slideInDown 1s ease; /* Slide in from top animation */
 }
-
 @keyframes slideInDown {
   from {
     transform: translateY(-50px);
@@ -35,7 +32,7 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  color: #886161;
+  color: #c88ea7;
   font-family: "Kenia", sans-serif;
   font-family: "Libre Baskerville", serif;
   animation: fadeInUp 1.5s ease; /* Fade in from bottom animation */
