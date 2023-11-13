@@ -7,6 +7,8 @@ import WebCamPage from "./components/WebCam";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Register from "./components/Register";
+import Profile from "./components/Profile";
+import Edit from "./components/Edit";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/Login" component={Login} />
         <Route path="/Signup" component={Signup} />
         <Route path="/Register" component={Register} />
+        <Route path="/Profile" component={Profile} />
+        <Route path="/Edit" component={Edit} />
       </Switch>
     </Router>
   );

@@ -1,0 +1,59 @@
+/* Profile.css */
+.profile-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  object-fit: cover;
+}
+
+.profile-name {
+  color: #c88ea7; /* Pink color */
+  margin-top: 10px;
+}
+
+.profile-description {
+  color: #c88ea7; /* Pink color */
+  margin-top: 5px;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.edit-account-link {
+  color: #c88ea7; /* Pink color */
+  text-decoration: underline; /* Add underline to the text */
+  display: block;
+  margin-top: 10px;
+}
+
+.profile-image {
+  text-align: center;
+}
+
+.profile-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%; /* Ensure the image is a circle */
+}
+
+.profile-container {
+  text-align: center;
+}
+
+.profile-header {
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  margin-top: 0; /* Reset margin-top */
+}

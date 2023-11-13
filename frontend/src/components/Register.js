@@ -24,7 +24,7 @@ const Register = () => {
         <img src={res} alt="Registration Success" className="register-image" />
         <h1>You are now registered at Gesture Sync</h1>
         <p>
-          Click <Link to="/account">here to go to your profile</Link>
+          Click <Link to="/Profile">here to go to your profile</Link>
         </p>
       </div>
     </Layout>
