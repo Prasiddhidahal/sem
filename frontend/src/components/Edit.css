@@ -1,0 +1,49 @@
+/* Edit.css */
+
+.edit-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.edit-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.edit-form label {
+  display: block;
+  margin: 10px 0; /* Adjusted margin */
+  color: #c88ea7; /* Pink color */
+}
+
+.edit-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #c88ea7; /* Pink color */
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  color: #c88ea7; /* Pink color */
+}
+
+.edit-options {
+  margin-top: 20px;
+}
+
+.edit-form button {
+  background-color: #c88ea7; /* Pink color */
+  color: #fff;
+  padding: 15px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.edit-form button a {
+  color: #fff; /* White color */
+  text-decoration: none;
+}
