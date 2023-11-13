@@ -3,10 +3,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
-import "./Login.css"; // Import the CSS file
+import "./Login.css";
 import loginImage from "../Images/login.png";
 import Google from "../Images/google.png";
 import Footer from "./Footer";
+import Signup from "./Signup";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -20,7 +21,8 @@ const Login = () => {
     setPassword(e.target.value);
   };
 
-  const handleLogin = () => {
+  const handleLogin = (e) => {
+    e.preventDefault();
     // Login logic here, such as authentication
     if (email && password) {
       // Add your authentication logic here
@@ -40,7 +42,7 @@ const Login = () => {
         </div>
         <div className="login-form">
           <h1>Login</h1>
-          <form>
+          <form onSubmit={handleLogin}>
             <div className="form-group">
               <label>Email:</label>
               <input
@@ -61,9 +63,7 @@ const Login = () => {
               />
             </div>
 
-            <button type="button" onClick={handleLogin}>
-              Login
-            </button>
+            <button type="submit">Login</button>
           </form>
           <div className="google-sign-in">
             <div className="google-button-container">
@@ -76,7 +76,8 @@ const Login = () => {
             <div className="login-options">
               <h3>Don't have an account?</h3>
               <div className="color">
-                <Link to="/signin">Sign up</Link>
+                {/* Link to Signup component */}
+                <Link to="/signup">Sign up</Link>
               </div>
             </div>
           </div>
