@@ -7,7 +7,6 @@ import "./Login.css";
 import loginImage from "../Images/login.png";
 import Google from "../Images/google.png";
 import Footer from "./Footer";
-import Signup from "./Signup";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -77,7 +76,9 @@ const Login = () => {
               <h3>Don't have an account?</h3>
               <div className="color">
                 {/* Link to Signup component */}
-                <Link to="/signup">Sign up</Link>
+                <Link to="/signup">
+                  <p>Sign up</p>
+                </Link>
               </div>
             </div>
           </div>

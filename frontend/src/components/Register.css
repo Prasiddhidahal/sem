@@ -1,0 +1,17 @@
+/* Register.css */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-image {
+  width: 600px; /* Adjust the width as needed */
+  height: 500px;
+  margin-bottom: 20px;
+}

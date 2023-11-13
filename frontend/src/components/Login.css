@@ -14,7 +14,7 @@
 }
 
 .login-image img {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
 }
 .h3 {
@@ -85,12 +85,14 @@
   color: #c88ea7;
 }
 
-.color p {
+.color {
   margin-bottom: 15px; /* Increase the margin-bottom to add more space */
   color: #c88ea7;
   text-decoration: underline; /* Add underline to the text */
 }
-
+.color p {
+  color: #c88ea7;
+}
 .google-sign-in .google-button-container {
   display: flex;
   align-items: center; /* Align items vertically in the center */
