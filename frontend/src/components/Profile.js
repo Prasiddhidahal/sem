@@ -20,7 +20,7 @@ const Profile = () => {
           <div className="profile-details">
             <p>Age: 25</p>
             <p>Location: Pokhara, Nepal</p>
-            <p>Number: 9800000003</p>
+            <p>Number: 9862182365</p>
           </div>
           <Link to="/Edit" className="edit-account-link">
             Edit Account
