@@ -1,7 +1,7 @@
 .about-container {
   text-align: center;
   margin: 50px auto;
-  max-width: 600px; /* Adjust the maximum width as needed */
+  max-width: 600px;
 }
 .about-container {
   color: #886161;
@@ -11,7 +11,7 @@
 .about-image {
   max-width: 100%;
   height: auto;
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 20px;
 }
 h1 {
   font-family: "Libre Baskerville", serif;

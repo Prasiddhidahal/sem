@@ -1,5 +1,3 @@
-// Footer.js
-
 import React from "react";
 import { FiMail } from "react-icons/fi";
 import { FiMapPin, FiPhone } from "react-icons/fi";

@@ -1,8 +1,6 @@
-// LandingPage.js
-
 import React from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer"; // Import the Footer component
+import Footer from "./Footer";
 import "./LandingPage.css";
 import loveImage from "../Images/Land2.png";
 //import facebook from "../Images/facebook.png";
@@ -29,7 +27,7 @@ const LandingPage = () => {
           url('https://fonts.googleapis.com/css2?family=Kenia&family=Libre+Baskerville:wght@700&display=swap');
         </style>
       </div>
-      {/* Include the Footer component at the end of your landing page */}
+      {}
       <Footer />
     </div>
   );

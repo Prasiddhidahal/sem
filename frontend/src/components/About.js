@@ -1,13 +1,13 @@
 import React from "react";
 import about from "../Images/about.png";
-import Navbar from "./Navbar"; // Adjust the path based on your project structure
+import Navbar from "./Navbar";
 import "./About.css";
 import Footer from "./Footer";
 
 function About() {
   return (
     <div>
-      <Navbar /> {/* Include the Navbar component */}
+      <Navbar /> {}
       <div className="about-container">
         <h1>About Us</h1>
         <style>

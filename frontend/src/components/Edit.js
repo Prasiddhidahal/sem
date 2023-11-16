@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Edit.css"; // Import your CSS file
+import "./Edit.css";
 import Layout from "./Layout";
 
 const Edit = () => {

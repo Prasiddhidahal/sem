@@ -1,5 +1,3 @@
-/* Footer.css */
-
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
 
 .footer {
@@ -8,7 +6,7 @@
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 20px;
-  background-color: #c88ea7; /* Set your desired background color */
+  background-color: #c88ea7;
 }
 
 .section {
@@ -41,8 +39,8 @@
 }
 
 .social img {
-  width: 50px; /* Set your desired width for the icons */
-  height: 30px; /* Set your desired height for the icons */
+  width: 50px;
+  height: 30px;
 }
 
 #para {
