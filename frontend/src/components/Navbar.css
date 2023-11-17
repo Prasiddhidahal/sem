@@ -1,9 +1,7 @@
-/* Navbar.css */
-
 nav {
-  background-color: #c88ea7; /* Background color for the navbar */
-  color: #000; /* Text color (changed from #0000 to #000) */
-  padding: 10px; /* Adjust the padding as needed */
+  background-color: #c88ea7;
+  color: #000;
+  padding: 10px;
 }
 
 ul {
@@ -14,24 +12,21 @@ ul {
 
 li {
   margin-right: 20px;
-  /* Adjust the margin between list items as needed */
 }
 
 a {
   text-decoration: none;
-  color: #2f2e41; /* Link text color (changed from #0000 to #000) */
+  color: #2f2e41;
   font-weight: bold;
-  transition: color 0.3s; /* Smooth color transition on hover */
+  transition: color 0.3s;
 
-  /* Style the link on hover */
   &:hover {
-    color: #000; /* Change the link text color on hover */
+    color: #000;
   }
 }
 
-/* Style for the Login link */
 .login-link {
-  margin-right: 0; /* Remove margin to align to the right corner */
+  margin-right: 0;
   display: flex;
   justify-content: flex-end;
 }

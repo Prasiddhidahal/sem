@@ -1,4 +1,3 @@
-/* Login.css */
 .login-container {
   display: flex;
   justify-content: space-around;
@@ -10,7 +9,7 @@
 }
 .login-image {
   flex: 1;
-  margin-right: 20px; /* Adjust the margin-right value */
+  margin-right: 20px;
 }
 
 .login-image img {
@@ -24,7 +23,7 @@
 .login-form {
   flex: 1;
   max-width: 700px;
-  max-height: 1000px; /* Adjust the max-height value if needed */
+  max-height: 1000px;
   padding: 20px;
 }
 .login-form h2 {
@@ -32,11 +31,9 @@
   color: #333;
 }
 
-/* Login.css */
-
 .login-form form {
   display: flex;
-  flex-direction: column; /* Keep the column direction for other styles */
+  flex-direction: column;
 }
 
 .login-form label {
@@ -51,8 +48,8 @@
   border: 1px solid #000;
   border-radius: 4px;
   display: block;
-  width: 100%; /* Make the input fields take full width */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .login-form button {
@@ -66,17 +63,13 @@
   border-radius: 4px;
 }
 
-/* Login.css */
-
-/* ... (previous styles) */
-
 .login-options {
   text-align: center;
-  margin-top: 30px; /* Increase the margin-top to add more space */
+  margin-top: 30px;
 }
 
 .login-options p {
-  margin-bottom: 15px; /* Increase the margin-bottom to add more space */
+  margin-bottom: 15px;
   color: #000;
 }
 
@@ -86,26 +79,26 @@
 }
 
 .color {
-  margin-bottom: 15px; /* Increase the margin-bottom to add more space */
+  margin-bottom: 15px;
   color: #c88ea7;
-  text-decoration: underline; /* Add underline to the text */
+  text-decoration: underline;
 }
 .color p {
   color: #c88ea7;
 }
 .google-sign-in .google-button-container {
   display: flex;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center;
   font-family: "Libre Baskerville", serif;
-  margin-top: 20px; /* Adjust the margin-top to add more space */
+  margin-top: 20px;
 }
 
 .google-sign-in button {
   background-color: #ffffff;
   color: #c88ea7;
-  padding: 10px 10px; /* Adjust padding for more space */
+  padding: 10px 10px;
   font-size: 16px;
-  border: 1px solid #000; /* Add border and set color to black */
+  border: 1px solid #000;
   cursor: pointer;
   border-radius: 4px;
   width: 100%;
@@ -118,12 +111,12 @@
 }
 .google-sign-in button:hover {
   background-color: #ffffff;
-  border-color: #000; /* Change border color on hover to black */
+  border-color: #000;
 }
 
 .google-sign-in .google-logo {
-  margin-left: 10px; /* Add margin to separate the button and the logo */
-  border-color: #000; /* Set border color for the logo to black */
+  margin-left: 10px;
+  border-color: #000;
 }
 .form-group {
   margin-bottom: 20px;

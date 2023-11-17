@@ -1,5 +1,3 @@
-// Login.js
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
@@ -75,7 +73,7 @@ const Login = () => {
             <div className="login-options">
               <h3>Don't have an account?</h3>
               <div className="color">
-                {/* Link to Signup component */}
+                {}
                 <Link to="/signup">
                   <p>Sign up</p>
                 </Link>
