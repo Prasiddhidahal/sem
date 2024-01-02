@@ -27,7 +27,7 @@ h3 {
   font-family: "Libre Baskerville", serif;
   transition: 0.3s;
   animation-name: slideLeftRight; /* Name of the animation */
-  animation-duration: 4s; /* Duration of the animation */
+  animation-duration: 12s; /* Duration of the animation */
   animation-timing-function: ease-in-out; /* Timing for smooth motion */
   animation-iteration-count: infinite; /* Make the animation infinite/continuous */
 }
