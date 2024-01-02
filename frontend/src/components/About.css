@@ -19,3 +19,26 @@ h1 {
 h3 {
   font-family: "Libre Baskerville", serif;
 }
+.about-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  color: #886161;
+  font-family: "Libre Baskerville", serif;
+  transition: 0.3s;
+  animation-name: slideLeftRight; /* Name of the animation */
+  animation-duration: 4s; /* Duration of the animation */
+  animation-timing-function: ease-in-out; /* Timing for smooth motion */
+  animation-iteration-count: infinite; /* Make the animation infinite/continuous */
+}
+
+/* Define the keyframes for the animation */
+@keyframes slideLeftRight {
+  0%,
+  100% {
+    transform: translateX(0); /* Starting and ending position */
+  }
+  50% {
+    transform: translateX(200px); /* Middle position (move right) */
+  }
+}
