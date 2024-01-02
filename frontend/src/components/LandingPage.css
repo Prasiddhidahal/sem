@@ -1,7 +1,7 @@
 .container {
   text-align: center;
   padding: 20px;
-  background-color: #ffffff; /* Set background color to white */
+  background-color: #ffffff;/* Set background color to white */
   font: panton;
   animation: fadeIn 2s ease; /* Fade in animation */
 }
