@@ -1,18 +1,16 @@
+/* LandingPage.css */
+
 .container {
+  position: relative;
   text-align: center;
-  padding: 20px;
-  background-color: #ffffff;/* Set background color to white */
-  font: panton;
-  animation: fadeIn 2s ease; /* Fade in animation */
+  color: white;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -111,7 +109,7 @@ img {
   color: #080909;
 }
 
-.love {
+.landi {
   max-width: 600px;
   height: 500px;
 }
